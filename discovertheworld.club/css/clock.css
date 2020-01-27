@@ -1,0 +1,22 @@
+body
+{
+color: #000;
+height:100%;
+bottom:0px;
+//position:absolute;
+margin:0;
+//padding:0px;
+background-image:url(../images/body_bg.jpg);
+background-repeat:repeat-x;
+}
+#clockPanel {
+    height: 500px;
+    //margin: 25px auto;
+    position: absolute;
+    width: 500px;
+    display: inline;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+}

@@ -1,0 +1,300 @@
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+height:100%;
+width:100%;
+position:absolute;
+margin:auto;
+padding:0px;
+background-image:url(../images/body_bg.jpg);
+display: block;
+}
+
+#mainCanvas
+{
+color: #000;
+height:100%;
+width:100%;
+display: block;
+position:absolute;
+}
+
+	
+#controlPanel {
+//border-style:none;
+//border-bottom:1px solid #D5D4CD;
+//border-top:1px solid #D5D4CD;
+//float:top;
+//layout-flow: bottom;
+//horizontal-align: bottom;
+display: block;
+//vertical-align: middle;
+//top: 50%;
+//left: 50%;
+//horrizontal-align: middle;
+//font-size:1px;
+bottom:0px;
+right:0px;
+//position:relative;
+//    background: url("bg.png") repeat scroll 0 0 #EEEEEE;
+height: 190px;
+//  margin: 30px auto;
+//  padding: 15px;
+width: 142px;
+position:absolute;
+//z-index: 100;
+//margin-right: 0px;
+//margin-bottom: 0px;
+//margin: 100% 0px 0px 100%;
+//    padding: auto;
+background-color:red;
+//display:block;
+}
+
+h1
+{
+//float:top;
+//width:314px;
+//float:right;
+font-family:Arial, Helvetica, sans-serif;
+font-size:21px;
+text-align:center;
+font-weight:bold;
+color:#FFD000;
+margin:0px;
+//display:inline;
+//padding:32px 0px 0px 0px;
+}
+
+#ball_menu,#ball_menu ul {
+    background-color: #8899AA;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#ball_menu {
+    display: block;
+    padding: 5px;
+    position: relative;
+    width: 132px;
+
+    -moz-perspective: 200px;
+    -ms-perspective: 200px;
+    -webkit-perspective: 200px;
+    -o-perspective: 200px;
+    perspective: 200px;
+
+    border-radius:11px;
+    -moz-border-radius:11px;
+    -webkit-border-radius:11px;
+
+}
+#ball_menu ul {
+    left: -9999px;
+    opacity:0;
+    overflow: hidden;
+    padding: 5px;
+    position: absolute;
+    top: -9999px;
+
+    -moz-transform: rotateY(70deg);
+    -ms-transform: rotateY(70deg);
+    -o-transform: rotateY(70deg);
+    -webkit-transform: rotateY(70deg);
+    transform: rotateY(70deg);
+
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+
+    -moz-transition: -moz-transform 0.3s linear, opacity 0.3s linear;
+    -ms-transition: -ms-transform 0.3s linear, opacity 0.3s linear;
+    -o-transition: -o-transform 0.3s linear, opacity 0.3s linear;
+    -webkit-transition: -webkit-transform 0.3s linear, opacity 0.3s linear;
+    transition: transform 0.3s linear, opacity 0.3s linear;
+
+}
+#ball_menu li {
+    background-color: #FFFFFF;
+    position: relative;
+}
+#ball_menu > li {
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    border-radius:11px;
+    -moz-border-radius:11px;
+    -webkit-border-radius:11px;
+}
+#ball_menu li a {
+    background-color: #FFD000;
+    border-color: #DDDDDD #555555 #555555 #DDDDDD;
+    border-style: solid;
+    border-width: 10px;
+    color: #000070;
+    display: block;
+    font-size: 25px;
+    padding: 20px 10px 20px 5px;
+    text-decoration: none;
+    width:95px;
+
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+
+    border-radius:11px;
+    -moz-border-radius:11px;
+    -webkit-border-radius:11px;
+}
+#ball_menu li:hover > a {
+    background-color: #8899AA;
+    border-color: #8899AA;
+    color: #FFFFFF;
+}
+#ball_menu li:hover ul.subs {
+    left: 114px;
+    opacity:1;
+    top: 0;
+
+    -moz-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+#ball_menu ul li {
+    width: 100%;
+}
+
+
+#gameFieldPanel
+{
+//float:left;
+width:800px;
+height:620px;
+//background-position:center;
+//layout-flow: center;
+//display:none;
+position:absolute;
+#position: center;
+#horizontal-align: left;
+//padding:10px;
+top: 55%;
+left: 50%;
+margin-left: -400px;
+margin-top: -300px;
+//background-image:url("../images/games/ball/dolphin_jump.jpg");
+//background-size: 100% 97%;
+//background-repeat:no-repeat;
+//background_color: rgba(255, 255, 255, 0.9);
+//border-color: blue;
+}           
+
+#gamePanel
+{
+//float:left;
+width:800px;
+height:600px;
+//background-position:center;
+//layout-flow: center;
+display:none;
+position:absolute;
+#position: center;
+#horizontal-align: left;
+//padding:10px;
+//top: 50%;
+//left: 50%;
+//margin-left: -400px;
+//margin-top: -300px;
+background-image:url("../images/games/ball/dolphin_jump.jpg");
+background-size: 100% 100%;
+background-repeat:no-repeat;
+//background_color: rgba(255, 255, 255, 0.9);
+//border-color: blue;
+}           
+#gameCanvas
+{
+//float:left;
+width:100%;
+height:100%;
+//background-position:center;
+//layout-flow: center;
+display:block;
+position: absolute;
+//horizontal-align: left;
+margin-left: auto;
+margin-right: auto;
+//background-image:url("../images/games/ball/dolphin_jump.jpg");
+//background-size: 100% 100%;
+//background-image:url("../images/games/ball/dolphin_jump.jpg");
+//color: rgba(0, 255, 0, 0.9);
+//fill: rgba(0, 255, 0, 0.9);
+//clip: rect(0px, 0px, 0px, 0px);
+//rect: 0,0, 800, 600;
+//z-index:100;
+}                              
+#statusPanel
+{
+//display:block;
+position:absolute;
+width:800px;
+height:20px;
+bottom:0px;
+color: yellow;
+background-color:light blue;
+}
+.center
+{
+text-align:center;
+horizontal-align: center;
+font-size:15px;
+font-weight:bold;
+align:center;
+}
+#div
+{
+align: center;
+text-align:center;
+}
+/*
+@media only screen and (max-height : 750px) {
+#gameFieldPanel
+{
+width:640px;
+height:480px;
+margin-left: -320px;
+margin-top: -220px;
+top: 50%;
+left: 50%;
+}           
+#gamePanel
+{
+//float:left;
+width:640px;
+height:480px;
+//width:400px;
+//height:300px;
+}
+#statusPanel{
+width:640px;
+}
+
+}
+*/
