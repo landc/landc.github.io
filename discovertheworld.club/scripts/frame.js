@@ -105,17 +105,17 @@ $(document).ready(function() {
     var url = window.location.href;
     if(url.substr(url.length - 3) == 'htm') {
        if (url.substr(url.length - 14) == 'Spain_2012.htm'){
-         location.replace("http://discovertheworld.club/#spain_en");  
+         location.replace("https://discovertheworld.club/#spain_en");  
        } else if (url.substr(url.length - 14) == 'Egypt_2013.htm'){
-         location.replace("http://discovertheworld.club/#egypt_en");  
+         location.replace("https://discovertheworld.club/#egypt_en");  
        } else if (url.substr(url.length - 19) == 'California_2013.htm'){
-         location.replace("http://discovertheworld.club/#california_en");  
+         location.replace("https://discovertheworld.club/#california_en");  
        } else if (url.substr(url.length - 15) == 'Hawaii_2014.htm'){
-         location.replace("http://discovertheworld.club/#hawaii_en");
+         location.replace("https://discovertheworld.club/#hawaii_en");
        } else if (url.substr(url.length - 20) == 'Cyprus_2014_2015.htm'){
-         location.replace("http://discovertheworld.club/#cyprus_en");
+         location.replace("https://discovertheworld.club/#cyprus_en");
        } else if (url.substr(url.length - 12) == 'Loo_2015.htm'){
-         location.replace("http://discovertheworld.club/#loo_en");
+         location.replace("https://discovertheworld.club/#loo_en");
        }
     }  
   }

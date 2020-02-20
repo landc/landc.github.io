@@ -1,92 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
    <url>
-      <loc>http://discovertheworld.club/</loc>
-      <lastmod>2014-05-28</lastmod>
+      <loc>https://discovertheworld.club/</loc>
       <changefreq>monthly</changefreq>
    </url>
 
    <url>
-      <loc>http://discovertheworld.club/#egypt</loc>
+      <loc>https://discovertheworld.club/#egypt</loc>
       <changefreq>daily</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/#egypt_en</loc>
+      <loc>https://discovertheworld.club/#egypt_en</loc>
       <changefreq>daily</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/Egypt_2013.html</loc>
-      <lastmod>2014-05-28</lastmod>
+      <loc>https://discovertheworld.club/Egypt_2013.htm</loc>
       <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>http://discovertheworld.club/Egypt_2013.htm</loc>
    </url>
 
    <url>
-      <loc>http://discovertheworld.club/#spain</loc>
+      <loc>https://discovertheworld.club/#spain</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/#spain_en</loc>
+      <loc>https://discovertheworld.club/#spain_en</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/Spain_2012.html</loc>
-   </url>
-   <url>
-      <loc>http://discovertheworld.club/Spain_2012.htm</loc>
+      <loc>https://discovertheworld.club/Spain_2012.htm</loc>
+      <changefreq>weekly</changefreq>
    </url>
 
    <url>
-      <loc>http://discovertheworld.club/#california</loc>
+      <loc>https://discovertheworld.club/#california</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/#california_en</loc>
+      <loc>https://discovertheworld.club/#california_en</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/California_2013.htm</loc>
+      <loc>https://discovertheworld.club/California_2013.htm</loc>
+      <changefreq>weekly</changefreq>
    </url>
 
    <url>
-      <loc>http://discovertheworld.club/#hawaii</loc>
+      <loc>https://discovertheworld.club/#hawaii</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/#hawaii_en</loc>
+      <loc>https://discovertheworld.club/#hawaii_en</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/Hawaii_2014.htm</loc>
+      <loc>https://discovertheworld.club/Hawaii_2014.htm</loc>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://discovertheworld.club/#cyprus</loc>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://discovertheworld.club/#cyprus_en</loc>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://discovertheworld.club/Cyprus_2014_2015.htm</loc>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://discovertheworld.club/#loo</loc>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://discovertheworld.club/#loo_en</loc>
+      <changefreq>weekly</changefreq>
+   </url>
+   <url>
+      <loc>https://discovertheworld.club/Loo_2015.htm</loc>
+      <changefreq>weekly</changefreq>
    </url>
 
    <url>
-      <loc>http://discovertheworld.club/#cyprus</loc>
+      <loc>https://discovertheworld.club/NN_May_2014.html</loc>
+   </url>
+   <url>
+      <loc>https://discovertheworld.club//ball.html</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/#cyprus_en</loc>
+      <loc>https://discovertheworld.club//home.html</loc>
       <changefreq>weekly</changefreq>
    </url>
    <url>
-      <loc>http://discovertheworld.club/Cyprus_2014_2015.htm</loc>
-   </url>
-
-   <url>
-      <loc>http://discovertheworld.club/NN_May_2014.html</loc>
-   </url>
-   <url>
-      <loc>http://discovertheworld.club//ball.html</loc>
-      <lastmod>2013-07-15</lastmod>
-      <changefreq>weekly</changefreq>
-   </url>
-   <url>
-      <loc>http://discovertheworld.club//home.html</loc>
-      <lastmod>2013-07-15</lastmod>
+      <loc>https://www.discovertheworld.club/dict/index.php</loc>
       <changefreq>weekly</changefreq>
    </url>
 </urlset> 
